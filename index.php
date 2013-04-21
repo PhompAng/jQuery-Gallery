@@ -112,6 +112,14 @@
 		var iso = $(this).exif('ISOSpeedRatings');
 		var focallenght = $(this).exif('FocalLength');
 		var software = $(this).exif('Software');
+
+		if (model == "") { model = "N/A";}
+		if (exposuretime == "") { exposuretime = "N/A";}
+		if (fnumber == "") { fnumber = "N/A";}
+		if (iso == "") { iso = "N/A";}
+		if (focallenght == "") { focallenght = "N/A";}
+		if (software == "") { software = "N/A";}
+
 		$("#fullcontainer").empty();
 		$(this).clone().appendTo("#fullcontainer");
 		$("<div id='exif'><pre class='l'>" + 
