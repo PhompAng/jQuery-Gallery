@@ -41,13 +41,6 @@ pre {
 #album1, #album2, #album3, #album4, #album5, #album6 {
 	display: none;
 }
-#vr {
-	position: fixed;
-	top: 0px;
-	left: 250px;
-	border-left: 1px solid #000;
-	height: 100%;
-}
 #thumbcontainer {
 	position: absolute;
 	z-index: 555;

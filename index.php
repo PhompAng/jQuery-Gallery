@@ -31,7 +31,7 @@
     				echo "<img class='thumb' exif='true' src='alb1/img" .  $j . ".jpg'>";
     			}
     		?>
-    		<div id="vr"></div>
+    		</div>
     	</div>
 	</div> 
 
@@ -46,7 +46,7 @@
 					echo "<img class='thumb' exif='true' src='alb2/img" .  $j . ".jpg'>";
     			}
     		?>
-    		<div id="vr"></div>
+    		</div>
     	</div>
 	</div>
 
@@ -61,7 +61,7 @@
     				echo "<img class='thumb' exif='true' src='alb3/img" .  $j . ".jpg'>";
     			}
     		?>
-    	<div id="vr"></div>
+    	</div>
     	</div>
 	</div>
 
@@ -76,7 +76,7 @@
     				echo "<img class='thumb' exif='true' src='alb4/img" .  $j . ".jpg'>";
     			}
     		?>
-    		<div id="vr"></div>
+    		</div>
     	</div>
 	</div>
 
