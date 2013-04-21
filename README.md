@@ -3,9 +3,9 @@ jQuery Gallery
 
 Feature
 -----------------------------
-### Detect number of image in folder.
-### Display EXIF of image.
-### Smoooooooooth animation
+- Detect number of image in folder.
+- Display EXIF of image.
+- Smoooooooooth animation
 
 How to use
 -----------------------------
