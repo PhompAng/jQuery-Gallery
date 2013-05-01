@@ -122,10 +122,10 @@
 
 		$("#fullcontainer").empty();
 		$(this).clone().appendTo("#fullcontainer");
-		$("<div id='exif'><pre class='l'>" + 
+		$("<div id='exif'><div id='exifcontainer'><pre class='l'>" + 
 		"Model: " + model + "</pre><pre class='r'>ExposureTime: " + exposuretime + "</pre><br><pre class='l'>" +
 		"FNumber: " + fnumber + "</pre><pre class='r'>ISO: " + iso + "</pre><br><pre class='l'>" +
-		"FocalLength: " + focallenght + "</pre><pre class='r'>Software: " + software + "</pre></div>").appendTo("#fullcontainer");
+		"FocalLength: " + focallenght + "</pre><pre class='r'>Software: " + software + "</pre></div></div>").appendTo("#fullcontainer");
 		$("#fullcontainer").children().removeClass("thumb").addClass("full").hide();
 		$(".full").fadeIn("slow");
 	});
